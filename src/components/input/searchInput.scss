@@ -1,0 +1,24 @@
+.inputWrapper {
+    position: relative;
+  }
+
+  input {
+    width: 90%;
+    padding: 12px 8% 12px 2%;
+    line-height: 16px;
+    border: 1px solid #a9a9a9;
+    font-size: 14px;
+
+    &::placeholder {
+      color: #444;
+      font-size: 14px;
+    }
+  }
+
+  .loadingSpinner {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 8px;
+    left: 495px;
+  }

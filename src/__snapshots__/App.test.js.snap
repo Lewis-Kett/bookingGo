@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="backgroundImage"
+  />
+  <div
+    className="container"
+  >
+    <form
+      id="searchForm"
+    >
+      <h1>
+        Where are you going?
+      </h1>
+      <label>
+        Pick-up Location
+      </label>
+      <div
+        className="inputWrapper"
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="city, airport, station, region, district..."
+          type="text"
+          value=""
+        />
+        <span />
+      </div>
+      <div
+        className="listWrapper"
+      />
+    </form>
+  </div>
+</div>
+`;

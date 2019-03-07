@@ -1,13 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import  SearchResults from './searchResults';
 import renderer from 'react-test-renderer'
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
 
 const data = [
     {name: 'test', placeType: 'test', city: 'test', country: 'test'},
@@ -15,11 +9,11 @@ const data = [
     {name: 'test', placeType: 'test', city: 'test', country: 'test'}
 ]
 
-describe('App', () => {
+describe('SearchResults', () => {
 
   it('should match snapshot', () => {
 
-    const tree = renderer.create(<App/>).toJSON()
+    const tree = renderer.create(<SearchResults searchResults={data} value={'test'} loaded={true} focused={true} />).toJSON()
 
     expect(tree).toMatchSnapshot()
   });

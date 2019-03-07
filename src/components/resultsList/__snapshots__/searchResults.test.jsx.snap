@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults should match snapshot 1`] = `
+<div
+  className="listWrapper"
+>
+  <ul
+    className="searchResultList"
+  >
+    <li
+      className="searchResultItem"
+    >
+      <a
+        className="searchResultLink"
+        href="http://test.com"
+      >
+        <span
+          className="searchResultPrefix "
+        >
+          
+        </span>
+        <div
+          className="searchResultTitle"
+        >
+          <span
+            className="searchResultName"
+          >
+            test
+          </span>
+          <span
+            className="searchResultSubName"
+          >
+            test , test
+          </span>
+        </div>
+      </a>
+    </li>
+    <li
+      className="searchResultItem"
+    >
+      <a
+        className="searchResultLink"
+        href="http://test.com"
+      >
+        <span
+          className="searchResultPrefix "
+        >
+          
+        </span>
+        <div
+          className="searchResultTitle"
+        >
+          <span
+            className="searchResultName"
+          >
+            test
+          </span>
+          <span
+            className="searchResultSubName"
+          >
+            test , test
+          </span>
+        </div>
+      </a>
+    </li>
+    <li
+      className="searchResultItem"
+    >
+      <a
+        className="searchResultLink"
+        href="http://test.com"
+      >
+        <span
+          className="searchResultPrefix "
+        >
+          
+        </span>
+        <div
+          className="searchResultTitle"
+        >
+          <span
+            className="searchResultName"
+          >
+            test
+          </span>
+          <span
+            className="searchResultSubName"
+          >
+            test , test
+          </span>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
